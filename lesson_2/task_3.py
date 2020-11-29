@@ -2,7 +2,7 @@
 # Например, если введено число 3486, надо вывести 6843.
 def reverse(n, i=0):
     if n == 0:
-        return i
+        return str(i).zfill(len(str(x)))
     return reverse(n // 10, i * 10 + n % 10)
 
 

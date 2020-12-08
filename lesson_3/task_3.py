@@ -7,8 +7,8 @@ QUANTITY = 10
 
 array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(QUANTITY)]
 print(array)
-minimum = array[0]
-maximum = array[-1]
+minimum = MAX_VALUE + 1
+maximum = MIN_VALUE - 1
 
 for i in array:
     if i > maximum:

@@ -3,11 +3,11 @@ import random
 
 MIN_VALUE = 0
 MAX_VALUE = 10
-QUANTITY = 1000
+SIZE = 1000
 m = 0
 n = 0
 
-array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(QUANTITY)]
+array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(SIZE)]
 print(array)
 max_dict = {}
 for i in array:

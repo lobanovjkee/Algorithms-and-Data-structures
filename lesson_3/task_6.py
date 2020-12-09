@@ -3,10 +3,10 @@ import random
 
 MIN_VALUE = -25
 MAX_VALUE = 100
-QUANTITY = 10
+SIZE = 10
 j = 0
 
-array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(QUANTITY)]
+array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(SIZE)]
 print(array)
 minimum = MAX_VALUE + 1
 maximum = MIN_VALUE - 1

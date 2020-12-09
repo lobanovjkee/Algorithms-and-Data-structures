@@ -4,9 +4,9 @@ import random
 
 MIN_VALUE = -10
 MAX_VALUE = 10
-QUANTITY = 10
+SIZE = 10
 
-array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(QUANTITY)]
+array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(SIZE)]
 print(array)
 negative_array = []
 for i in array:

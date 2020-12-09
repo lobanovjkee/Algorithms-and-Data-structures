@@ -5,9 +5,9 @@ import random
 
 MIN_VALUE = 0
 MAX_VALUE = 100
-QUANTITY = 10
+SIZE = 10
 
-array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(QUANTITY)]
+array = [random.randint(MIN_VALUE, MAX_VALUE) for _ in range(SIZE)]
 even_array = []
 for i, item in enumerate(array):
     if item % 2 == 0:
